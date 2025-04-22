@@ -16,7 +16,7 @@ This sign up function is very easy to implement
 This sign in function is also very easy to implement
 
 ## Warning⚠️⚠️⚠️⚠️
-Every redirect should be written by yourself, I recommend a different onSubmit function that implements both the signIn ande sugnUp functions like this next js example:
+Every redirect should be written by yourself, I recommend a different onSubmit function that implements both the signIn and signUp functions like this next js example:
 ```js
 import {useNavigation} from 'next-navigation'
 import {signUp, signIn} from 'authify'
@@ -41,4 +41,36 @@ export const App = () => {
     <button onclick={onSubmit}>Sign up or sign in</button>
   )
 }
-export
+```
+
+## Installation
+```bash
+npm i authify
+```
+
+## Usage
+Here is a brief example of how you should use authify:
+import {useNavigation} from 'next-navigation'
+import {signUp, signIn} from 'authify'
+
+export const App = () => {
+
+  async function onSubmit(){
+      const router = useNavigation()
+  
+      if(signin){
+        await signIn("email@gmail.com", "1234") //email, password
+        router.push('/')
+      }
+
+      else if(signup){
+        await signup("name", "email@gmail.com" , "1234") //username, email, password
+        router.push('/')
+      }
+  }
+
+  return(
+    <button onclick={onSubmit}>Sign up or sign in</button>
+  )
+}
+```
