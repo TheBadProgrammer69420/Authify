@@ -27,12 +27,12 @@ export const App = () => {
       const router = useNavigation()
   
       if(signin){
-        await signIn("email@gmail.com",//email "1234" //password)
+        await signIn("email@gmail.com", "1234") //email, password
         router.push('/')
       }
 
       else if(signup){
-        await signup("name" //username , "email@gmail.com" //email , "1234" //password)
+        await signup("name", "email@gmail.com" , "1234") //username, email, password
         router.push('/')
       }
   }
