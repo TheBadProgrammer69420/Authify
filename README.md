@@ -43,6 +43,13 @@ export const App = () => {
 }
 ```
 
+This library is enviornment variables dependent. So create a file called ".env" not ".envlocal"
+Here are the EXACT contents that should be here:
+```env
+    APPWRITE_ENDPOINT=Endpoint
+    APPWRITE_PROJECT_ID=projectid
+```
+
 ## Installation
 ```bash
 npm i authify
