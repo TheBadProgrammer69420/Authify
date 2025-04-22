@@ -6,13 +6,13 @@
 - [Usage](#usage)
 
 ## Features
-** Appwrite auth **
+- ** Appwrite auth **
 This auth library uses appwrite as the base
 
-** Sign Up function **
+- ** Sign Up function **
 This sign up function is very easy to implement
 
-** Sign In function **
+- ** Sign In function **
 This sign in function is also very easy to implement
 
 ## Warning⚠️⚠️⚠️⚠️
