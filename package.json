@@ -1,0 +1,33 @@
+{
+  "name": "authify",
+  "version": "1.0.0",
+  "description": "A simple package for user authorization",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "appwrite": "^17.0.2",
+    "dotenv": "^16.5.0",
+    "typescript": "^5.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheBadProgrammer69420/Authify.git"
+  },
+  "keywords": [
+    "Auth",
+    "Appwrite",
+    "Email",
+    "&",
+    "Password",
+    "authentication"
+  ],
+  "author": "Evan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheBadProgrammer69420/Authify/issues"
+  },
+  "homepage": "https://github.com/TheBadProgrammer69420/Authify#readme"
+}
