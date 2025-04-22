@@ -50,6 +50,8 @@ npm i authify
 
 ## Usage
 Here is a brief example of how you should use authify:
+
+```js
 import {useNavigation} from 'next-navigation'
 import {signUp, signIn} from 'authify'
 
