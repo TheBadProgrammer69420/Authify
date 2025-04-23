@@ -18,13 +18,13 @@ This sign in function is also very easy to implement
 ## Warning⚠️⚠️⚠️⚠️
 Every redirect should be written by yourself, I recommend a different onSubmit function that implements both the signIn and signUp functions like this next js example:
 ```js
-import {useNavigation} from 'next-navigation'
+import {useRouter} from 'next-navigation'
 import {signUp, signIn} from 'authify'
 
 export const App = () => {
 
   async function onSubmit(){
-      const router = useNavigation()
+      const router = useRouter()
   
       if(signin){
         await signIn("email@gmail.com", "1234") //email, password
