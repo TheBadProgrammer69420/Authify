@@ -1,4 +1,4 @@
-# Authjs
+# Authix
 
 ## Table of contents
 - [Features](#features)
